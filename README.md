@@ -1,5 +1,7 @@
 # Lab 4 — GitOps та ArgoCD
 
+Гілка: `4`
+
 ## 1) Встановлення ArgoCD
 ```powershell
 .\argocd\install.ps1
