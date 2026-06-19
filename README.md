@@ -1,22 +1,15 @@
-# Lab 4 — GitOps та ArgoCD
+# Lab 3 — Kubernetes та Helm
 
-## 1) Встановлення ArgoCD
+## kubectl-only
 ```powershell
-.\argocd\install.ps1
+.\k8s\start-minikube.ps1
+.\k8s\deploy.ps1
 ```
 
-## 2) Доступ до UI
+## helm-deploy
 ```powershell
-.\argocd\port-forward.ps1
-.\argocd\password.ps1
+.\helm\deploy.ps1
+.\helm\upgrade-rollback.ps1
 ```
 
-## 3) Створення Application
-```powershell
-.\argocd\apply-app.ps1
-```
-
-## 4) Демонстрація GitOps
-```powershell
-.\argocd\demo-scale.ps1
-```
+БД для helm-deploy: `bitnami/postgresql` через `helm/postgres-values.yaml`.
