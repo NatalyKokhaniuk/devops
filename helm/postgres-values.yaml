@@ -1,0 +1,4 @@
+auth:
+  username: appuser
+  password: apppassword
+  database: appdb
